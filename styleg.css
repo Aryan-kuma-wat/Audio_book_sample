@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color : #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+main {
+    padding: 2em;
+    background-color: #f4f4f4;
+}
+
+.genre-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1em;
+}
+
+.genre-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.genre-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.genre-card h3 {
+    color: #333;
+}
+
+.genre-card p {
+    color: #666;
+}
+
+.genre-card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.genre-card button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.footer-card {
+    margin: 1em 0;
+}
+
+.footer-card h3 {
+    margin-bottom: 0.5em;
+}
+
+.footer-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-card ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-card ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-card ul li a:hover {
+    color: #007BFF;
+}

@@ -1,0 +1,64 @@
+.profile-info {
+    background-color: #004444; /* lighter dark shade */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.listening-history {
+    background-color: #004444; /* lighter dark shade */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.recommendations {
+    background-color: #004444; /* lighter dark shade */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin-bottom: 10px;
+}
+
+#recommendation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recommendation-list li {
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #004444; /* lighter dark shade */
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#edit-profile-modal {
+    display: none;
+}
+
+#edit-profile-modal.show {
+    display: block;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook Company - Profile</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Audiobook Company</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./genre.html">Genre</a></li>
+                <li><a href="./show.html">Shows</a></li>
+                <li><a href="./profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <div class="profile-info">
+                <h3>Account Information</h3>
+                <p>Username: <span id="username"></span></p>
+                <p>Email: <span id="email"></span></p>
+                <button id="edit-profile">Edit Profile</button>
+            </div>
+
+            <div class="profile-stats">
+                <h3>Profile Statistics</h3>
+                <ul>
+                    <li>Total Audiobooks Listened: <span id="total-audiobooks"></span></li>
+                    <li>Total Time Listened: <span id="total-time"></span></li>
+                    <li>Favorite Genre: <span id="favorite-genre"></span></li>
+                </ul>
+            </div>
+
+            <div class="listening-history">
+                <h3>Listening History</h3>
+                <ul id="history-list">
+                    <!-- List of audiobooks with timestamps and progress bars -->
+                </ul>
+            </div>
+
+            <div class="recommendations">
+                <h3>Personalized Recommendations</h3>
+                <ul id="recommendation-list">
+                    <!-- List of recommended audiobooks with images and descriptions -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Audiobook Company. All rights reserved.</p>
+        <ul>
+            <li><a href="./terms.html">Terms of Service</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    </footer>
+
+    <!-- Edit Profile Modal -->
+    <div id="edit-profile-modal" class="modal">
+        <div class="modal-content">
+            <h2>Edit Profile</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="favorite-genre">Favorite Genre:</label>
+                <select id="favorite-genre" name="favorite-genre">
+                    <option value="Fiction">Fiction</option>
+                    <option value="Non-Fiction">Non-Fiction</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Romance">Romance</option>
+                </select>
+                
+                <button type="submit">Update Profile</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
