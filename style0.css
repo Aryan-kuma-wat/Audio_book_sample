@@ -4,6 +4,10 @@
     gap: 20px;
 }
 
+main {
+    padding: 13px 20px;
+}
+
 .show-card {
     background-color: #f7f7f7;
     padding: 20px;
@@ -23,7 +27,7 @@
 }
 
 .show-card button {
-    background-color: #4CAF50;
+    background-color: #0385ef;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -32,7 +36,7 @@
 }
 
 .show-card button:hover {
-    background-color: #3e8 41;
+    background-color: rgb(15, 255, 207) 41;
 }
 
 .recommendation-grid {
@@ -60,7 +64,7 @@
 }
 
 .recommendation-card button {
-    background-color: #4CAF50;
+    background-color: #0e82ff;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -70,4 +74,31 @@
 
 .recommendation-card button:hover {
     background-color: #3e8e41;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }

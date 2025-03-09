@@ -4,6 +4,11 @@
     gap: 20px;
 }
 
+main{
+    padding: 20px 20px;
+
+}
+
 .show-card {
     background-color: #f7f7f7;
     padding: 20px;
@@ -33,4 +38,31 @@
 
 .show-card button:hover {
     background-color: #3e8e41;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: absolute;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }

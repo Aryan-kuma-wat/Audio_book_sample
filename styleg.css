@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-    margin: 0;
-    padding: 0;
+    padding : 20px;
 }
 
 header {
@@ -11,43 +10,32 @@ header {
     text-align: center;
 }
 
-header .logo {
+header nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0 100px;
+    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-header .logo img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
 header nav ul li {
-    margin-right: 20px;
+    text-align: center;
 }
 
 header nav a {
-    color : #fff;
+    color : #000000;
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav a.active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffff;
 }
 
 main {
     padding: 2em;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 .genre-grid {
@@ -57,8 +45,8 @@ main {
 }
 
 .genre-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
     border-radius: 5px;
     padding: 1em;
     text-align: center;
@@ -96,39 +84,27 @@ main {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 2em;
+    padding: 10px 0;
     text-align: center;
+    display: absolute;
+    margin-top: 11.7rem;
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1em;
-}
-
-.footer-card {
-    margin: 1em 0;
-}
-
-.footer-card h3 {
-    margin-bottom: 0.5em;
-}
-
-.footer-card ul {
-    list-style: none;
+footer ul {
+    list-style-type: none;
     padding: 0;
 }
 
-.footer-card ul li {
+footer ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-.footer-card ul li a {
+footer ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-card ul li a:hover {
-    color: #007BFF;
+footer ul li a:hover {
+    text-decoration: underline;
 }
